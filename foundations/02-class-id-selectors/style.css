@@ -1,0 +1,19 @@
+.para {
+    background-color: rgb(242, 158, 170);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#first-div {
+    color: rgb(0,0,225);
+    font-size: 36px;
+}
+
+.add-on {
+    font-size: 24px;
+}
+
+#second-div {
+    background-color: rgb(152, 255, 134);
+    font-weight: 700;
+    font-size: 24px;
+}
