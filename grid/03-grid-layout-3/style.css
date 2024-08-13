@@ -93,6 +93,10 @@
 
 /* Solution */
 
+body {
+  height: 100vh;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -145,4 +149,15 @@
 .footer {
   grid-column: 1 / -1;
   grid-row: -2 / -1;
+}
+
+.sidebar {
+  display: grid;
+  row-gap: 15px;
+}
+
+.side-content,
+.photo {
+  display: grid;
+  place-items: center;
 }
