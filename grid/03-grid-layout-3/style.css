@@ -93,6 +93,10 @@
 
 /* Solution */
 
+body {
+  height: 100%;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -109,6 +113,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .logo {
